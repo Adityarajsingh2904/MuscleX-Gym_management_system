@@ -1,0 +1,3 @@
+# Exclude Supabase functions from Vercel deployment
+supabase/
+/supabase/
