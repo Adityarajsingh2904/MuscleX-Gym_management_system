@@ -125,7 +125,7 @@ export function Sidebar({ open, setOpen }: SidebarProps) {
           <div className="h-8 w-8 rounded-lg bg-teal-600 flex items-center justify-center">
             <Dumbbell className="h-5 w-5 text-white" />
           </div>
-          <span className="text-xl font-bold text-gray-900 hidden sm:block">Fit Flow</span>
+          <span className="text-xl font-bold text-gray-900 hidden sm:block">MuscleX</span>
         </div>
       </div>
 

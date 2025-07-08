@@ -14,7 +14,7 @@ export default function ProfilePage() {
   const [profile, setProfile] = useState({
     firstName: "John",
     lastName: "Doe",
-    email: "john.doe@fitflow.com",
+    email: "john.doe@musclex.com",
     phone: "+1 (555) 123-4567",
     role: "Gym Owner",
     bio: "Passionate fitness enthusiast and gym owner dedicated to helping people achieve their health goals.",

@@ -6,7 +6,7 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "FitFlow - Gym Management System",
+  title: "MuscleX - Gym Management System",
   description: "Complete gym management solution with franchise support",
     generator: 'v0.dev'
 }

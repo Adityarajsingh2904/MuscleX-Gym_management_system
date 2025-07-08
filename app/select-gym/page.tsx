@@ -334,7 +334,7 @@ export default function SelectGymPage() {
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-4 md:p-8">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-8">
-          <h1 className="text-3xl font-bold text-gray-900">Welcome to FitFlow</h1>
+          <h1 className="text-3xl font-bold text-gray-900">Welcome to MuscleX</h1>
           {token ? (
             <p className="text-gray-600 mt-2">You have been invited to join a gym</p>
           ) : (

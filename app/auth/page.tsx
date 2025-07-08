@@ -276,7 +276,7 @@ export default function AuthPage() {
           <div className="mx-auto w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mb-4">
             <Dumbbell className="h-8 w-8 text-teal-600" />
           </div>
-          <h1 className="text-3xl font-bold text-gray-900">FitFlow</h1>
+          <h1 className="text-3xl font-bold text-gray-900">MuscleX</h1>
           <p className="text-gray-600">Complete Gym Management System</p>
         </div>
 
