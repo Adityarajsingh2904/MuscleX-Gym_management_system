@@ -24,7 +24,7 @@ export default function TrainersPage() {
         {
           id: "1",
           name: "Sarah Wilson",
-          email: "sarah@fitflow.com",
+            email: "sarah@musclex.com",
           phone: "+1 234-567-8901",
           specializations: ["Yoga", "Pilates", "Meditation"],
           certifications: ["RYT-500", "Pilates Instructor"],
@@ -38,7 +38,7 @@ export default function TrainersPage() {
         {
           id: "2",
           name: "Mike Johnson",
-          email: "mike@fitflow.com",
+            email: "mike@musclex.com",
           phone: "+1 234-567-8902",
           specializations: ["HIIT", "Strength Training", "CrossFit"],
           certifications: ["NASM-CPT", "CrossFit Level 2"],
@@ -52,7 +52,7 @@ export default function TrainersPage() {
         {
           id: "3",
           name: "Emma Garcia",
-          email: "emma@fitflow.com",
+            email: "emma@musclex.com",
           phone: "+1 234-567-8903",
           specializations: ["Zumba", "Dance Fitness", "Cardio"],
           certifications: ["Zumba Instructor", "Group Fitness"],

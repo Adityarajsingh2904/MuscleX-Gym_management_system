@@ -434,7 +434,7 @@ export default function OnboardingPage() {
                           gymInfo: { ...prev.gymInfo, name: e.target.value },
                         }))
                       }
-                      placeholder="FitFlow Gym"
+                      placeholder="MuscleX Gym"
                       required
                     />
                   </div>
@@ -514,7 +514,7 @@ export default function OnboardingPage() {
                           gymInfo: { ...prev.gymInfo, email: e.target.value },
                         }))
                       }
-                      placeholder="info@fitflowgym.com"
+                        placeholder="info@musclexgym.com"
                       required
                       disabled={existingAccountId !== null} // Disable if updating existing account
                     />
@@ -532,7 +532,7 @@ export default function OnboardingPage() {
                         gymInfo: { ...prev.gymInfo, website: e.target.value },
                       }))
                     }
-                    placeholder="https://fitflowgym.com"
+                      placeholder="https://musclexgym.com"
                   />
                 </div>
 
@@ -583,7 +583,7 @@ export default function OnboardingPage() {
                           ownerInfo: { ...prev.ownerInfo, email: e.target.value },
                         }))
                       }
-                      placeholder="john@fitflowgym.com"
+                        placeholder="john@musclexgym.com"
                       required
                     />
                   </div>

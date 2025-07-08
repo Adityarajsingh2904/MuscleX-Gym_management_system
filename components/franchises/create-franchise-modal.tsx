@@ -194,7 +194,7 @@ export function CreateFranchiseModal({ open, onClose, onAdd }: CreateFranchiseMo
                   type="email"
                   value={formData.email}
                   onChange={(e) => setFormData((prev) => ({ ...prev, email: e.target.value }))}
-                  placeholder="franchise@fitflow.com"
+                    placeholder="franchise@musclex.com"
                   required
                 />
               </div>
