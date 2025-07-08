@@ -1,30 +1,68 @@
-# Image Analysis
+# MuscleX Gym Management System
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+MuscleX is a full-stack gym management platform built with **Next.js**, **React**, and **Supabase**. It provides tooling for running fitness centers, including membership management, billing, analytics, scheduling and more.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/endtechventures-8555s-projects/v0-image-analysis)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/ga4E3AIgdwB)
+## Features
 
-## Overview
+- **User Authentication** – Sign up and login flows powered by Supabase Auth.
+- **Onboarding** – Guided setup for gyms, franchises and owners.
+- **Dashboard** – Overview cards and charts for members, revenue and activity.
+- **Member Management** – Add, edit, or import members in bulk and track check‑ins.
+- **Class Scheduling** – Manage gym classes and trainers with calendars and capacity tracking.
+- **Billing & Invoices** – Record payments, generate invoices and monitor overdue balances.
+- **Inventory & Expenses** – Track equipment, supplies and operational expenses.
+- **Franchise Support** – Manage multiple gym locations and staff roles.
+- **Access Control** – Define rules and log member access.
+- **Analytics** – Charts for attendance, revenue trends, member retention and more.
+- **Multi‑Currency** – Currency utilities with automatic formatting and updates.
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+## Tech Stack
+
+- [Next.js 14](https://nextjs.org/) & [React 18](https://react.dev)
+- [TypeScript](https://www.typescriptlang.org/) for type safety
+- [Tailwind CSS](https://tailwindcss.com/) with [shadcn/ui](https://ui.shadcn.com/) and Radix components
+- [Supabase](https://supabase.com/) for database, authentication and storage
+- [Lucide](https://lucide.dev/) icons and other utility libraries
+
+## Getting Started
+
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+2. Create a `.env.local` file with your Supabase credentials:
+   ```bash
+   NEXT_PUBLIC_SUPABASE_URL=your-project-url
+   NEXT_PUBLIC_SUPABASE_ANON_KEY=your-public-anon-key
+   SUPABASE_SERVICE_ROLE_KEY=your-service-role-key
+   ```
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+Visit `http://localhost:3000` to view the app.
+
+### Database Migrations
+
+This project uses Supabase. Migration scripts are located in `scripts/` and can be executed with the Supabase CLI:
+```bash
+./migration.sh
+```
+Use the provided shell or Python scripts to rename migration files if needed.
+
+## Folder Structure
+
+- `app/` – Next.js routes and pages
+- `components/` – Reusable UI components (members, billing, dashboard, etc.)
+- `hooks/` – React hooks for currency and notifications
+- `lib/` – Supabase client helpers and context providers
+- `types/` – TypeScript interfaces for database entities
 
 ## Deployment
 
-Your project is live at:
+The app is configured for Vercel deployment. Ensure environment variables are set in the Vercel dashboard and trigger a production build with `npm run build`.
 
-**[https://vercel.com/endtechventures-8555s-projects/v0-image-analysis](https://vercel.com/endtechventures-8555s-projects/v0-image-analysis)**
+## License
 
-## Build your app
-
-Continue building your app on:
-
-**[https://v0.dev/chat/projects/ga4E3AIgdwB](https://v0.dev/chat/projects/ga4E3AIgdwB)**
-
-## How It Works
-
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+This project is provided as-is without any warranty. Feel free to customize it for your own gym management needs.
